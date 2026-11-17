@@ -1,0 +1,15 @@
+PRUSHTI & RAJJ – KRISHNA RUKMINI DWARKA INVITATION
+==================================================
+Open details.js in any text editor (or the pencil icon on GitHub) – everything is in that one file.
+
+Common edits:
+  events      -> each line is one function. time: "" hides the time (Carnival has no time yet).
+                 venue: shown under each function (Baraat venue currently "Hawthorn Suites, Dwarka").
+  heroDate    -> the date line at the top and at the end.
+  weddingDateTime -> the countdown counts to this (now: Baraat, 2 Feb 2027, 5:00 PM IST).
+  mapLink     -> Google Maps link for the "Find your way" button.
+  music       -> put the song in the music folder as song.mp3.
+  hideSections-> "rsvp" is hidden (no RSVP for this couple).
+
+Photos live in the images folder. Keep names lowercase and the same as in details.js.
+Scratch cards show on every visit (built in).
