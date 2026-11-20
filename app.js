@@ -18,7 +18,7 @@ set("blessing",W.blessing);set("tag",W.tagline);set("invite",W.inviteLine);set("
 try{var _d=new Date(W.weddingDateTime),_f=function(o){return new Intl.DateTimeFormat("en-IN",Object.assign({timeZone:"Asia/Kolkata"},o)).format(_d)};
   set("cEnd",W.cardFooter!=null?W.cardFooter:(_f({weekday:"long"})+", "+_f({day:"numeric"})+" "+_f({month:"long"})+" "+_f({year:"numeric"})+"\n"+W.venueName+", "+(W.venueCity||"").replace(/^Venue\s*·\s*/,"")))}catch(e){}
 if(W.footerImage!=null){if(W.footerImage)$("footImg").src=W.footerImage;else $("footImg").parentNode.style.display="none"}
-if(W.postcards&&W.postcards.length){set("pcEyebrow",W.postcardEyebrow||"");set("pcTitle",W.postcardTitle||"");set("pcNote",W.postcardNote||"");
+if(W.postcards&&W.postcards.length&&$("pcs")){set("pcEyebrow",W.postcardEyebrow||"");set("pcTitle",W.postcardTitle||"");set("pcNote",W.postcardNote||"");
   $("pcs").innerHTML=W.postcards.map(function(p,i){return '<figure class="pc reveal-up p'+i+'"><img loading="lazy" src="'+p.src+'" alt=""><figcaption>'+(p.cap||"")+'</figcaption></figure>'}).join("")}
 else{var _pc=$("postcard");if(_pc)_pc.style.display="none"}
 set("eNames",W.groom+" & "+W.bride);set("eDate",W.dateDay+" · "+W.dateMonth+" · "+W.dateYear);

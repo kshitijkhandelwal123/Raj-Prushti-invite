@@ -1172,3 +1172,26 @@ body{background:#f4f9f3}
 .cl-pal img#footImg{-webkit-mask-image:none!important;mask-image:none!important;animation:none!important;transform:none!important}
 .cl-pal:before{content:"";position:absolute;inset:0;z-index:2;pointer-events:none;background:linear-gradient(180deg,#e9f3ec 0%,rgba(233,243,236,.85) 6%,rgba(233,243,236,0) 24%,rgba(233,243,236,0) 80%,rgba(214,232,220,.7) 94%,#d6e8dc 100%)}
 .cl-pal img.cl-lotus{z-index:3!important}
+
+/* =================== v52 : logo crest, logo ending, couple gallery =================== */
+.g-stage .lock.logo-lock{aspect-ratio:auto!important;height:auto!important;width:40%!important;top:62%!important;display:flex;flex-direction:column;align-items:center;gap:8px;filter:drop-shadow(0 0 22px rgba(255,236,190,.9)) drop-shadow(0 10px 16px rgba(20,70,60,.35))!important}
+.logo-lock:after{display:none!important}
+.logo-lock img{width:100%;border-radius:50%;box-shadow:0 0 0 3px #fff8e4,0 0 0 5px #c9a24e;animation:lgpulse 3s ease-in-out infinite}
+@keyframes lgpulse{50%{transform:scale(1.04);box-shadow:0 0 0 3px #fff8e4,0 0 0 5px #c9a24e,0 0 30px 6px rgba(255,226,160,.9)}}
+.ll-ring{position:absolute;left:-9%;top:-9%;width:118%;aspect-ratio:1;border-radius:50%;border:1.5px dashed rgba(201,162,78,.9);animation:rspin 14s linear infinite;pointer-events:none}
+.logo-lock b{font:500 9px Jost,sans-serif;letter-spacing:.3em;color:#1d5a55;background:rgba(255,253,246,.92);padding:5px 12px 5px 14px;border-radius:20px;box-shadow:0 0 0 1px rgba(201,162,78,.7)}
+/* closing logo */
+.cl-logo{position:relative;width:150px;height:150px;margin:0 auto 18px}
+.cl-logo img{width:100%;border-radius:50%;box-shadow:0 0 0 4px #fffaf0,0 0 0 6px #c9a24e,0 14px 30px rgba(20,70,60,.25);animation:kfloat 6s ease-in-out infinite}
+.cl-logo-ring{position:absolute;inset:-14px;border-radius:50%;border:1.5px dashed rgba(201,162,78,.85);animation:rspin 20s linear infinite}
+.cl-logo:after{content:"";position:absolute;inset:-26px;border-radius:50%;background:radial-gradient(circle,rgba(255,232,170,.55),transparent 65%);z-index:-1;animation:sunp 5s ease-in-out infinite}
+/* gallery back on, Krishna styling */
+#gallery{display:block;background:radial-gradient(70% 40% at 50% 50%,#fffdf4,#e8f3ea 70%,#f4f9f3)!important}
+#gallery h2{font-family:'Pinyon Script',cursive!important;font-weight:400!important;font-size:46px!important}
+.gs .fr:before{background:repeating-linear-gradient(45deg,rgba(124,192,149,.85) 0 6px,rgba(232,244,236,.9) 6px 12px)!important}
+.gs figcaption{color:#1d5a55!important}
+.gs img{object-fit:cover}
+.gdots i.on{background:#2a7a72!important}
+.gctl button{color:#1d5a55}
+/* closing logo: steady */
+.cl-logo img{animation:none!important;transform:none!important}

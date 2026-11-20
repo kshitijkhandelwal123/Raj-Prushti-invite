@@ -14,7 +14,7 @@ window.WEDDING = {
   monogram: "P & R",
   brideParents: "Smt. Neha Dave\n&\nShri Jignesh Vinodrai Dave",
   brideLabel: "D/o",
-  groomParents: "Smt. Sangeeta Thaker\n&\nShri Vinod Mansukhbhai Thaker",
+  groomParents: "Smt. Sangeeta Thaker\n&\nShri Vinod Mahasukhbhai Thaker",
   groomLabel: "S/o",
 
   /* ---- opening (3-2-1 countdown at the Dwarkadhish gate) ---- */
@@ -52,11 +52,12 @@ window.WEDDING = {
   ],
 
   /* gallery – Dwarka, the city of Shri Krishna */
-  gallery: [
-    { src: "images/temple-gate.jpg",   cap: "The gates of Dwarkadhish" },
-    { src: "images/temple-aerial.jpg", cap: "Where the temple meets the sea" },
-    { src: "images/temple-arch.jpg",   cap: "Blessings at sunrise" },
-    { src: "images/resort-aerial.jpg", cap: "Our celebration home" }
+  gallery: [                         /* the couple's photos */
+    { src: "images/us-1.jpg", cap: "Forehead to forehead" },
+    { src: "images/us-2.jpg", cap: "Lost in the hills" },
+    { src: "images/us-3.jpg", cap: "Sailing into forever" },
+    { src: "images/us-4.jpg", cap: "All smiles, always" },
+    { src: "images/us-5.jpg", cap: "My safe place" }
   ],
 
   /* ---- date (the three scratch cards reveal this) ---- */
@@ -69,7 +70,7 @@ window.WEDDING = {
   /* ---- events (time: "" hides the time) ---- */
   eventsEyebrow: "Two days of devotion, colour & celebration",
   events: [
-    { name: "Day One · Monday",  title: "Carnival",      date: "1st February 2027", time: "",              venue: "Hawthorn Suites, Dwarka", note: "Games, music, treats & joyful madness to begin the celebrations", image: "images/ev-haldi.jpg",     focus: "50% 35%" },
+    { name: "Day One · Monday",  title: "Carnival",      date: "1st February 2027", time: "12:00 PM onwards",venue: "Hawthorn Suites, Dwarka", note: "Games, music, treats & joyful madness to begin the celebrations", image: "images/ev-haldi.jpg",     focus: "50% 35%" },
     { name: "Day One · Monday",  title: "Garba Night",   date: "1st February 2027", time: "8:00 PM onwards", venue: "Hawthorn Suites, Dwarka", note: "Twirl in mirror-work colours to the beat of the dhol", image: "images/look-garba.jpg",  focus: "50% 45%" },
     { name: "Day Two · Tuesday", title: "Mandava",       date: "2nd February 2027", time: "8:30 AM",        venue: "Hawthorn Suites, Dwarka", note: "Sacred rituals to bless a beautiful beginning",                   image: "images/ev-mandap.jpg",   focus: "30% 40%" },
     { name: "Day Two · Tuesday", title: "Baraat / Jaan", date: "2nd February 2027", time: "5:00 PM onwards", venue: "Hawthorn Suites, Dwarka", note: "The groom arrives with dhol, dance & royal grandeur",             image: "images/ev-baraat.jpg",   focus: "40% 45%" }
@@ -87,7 +88,7 @@ window.WEDDING = {
   dressTitle: "Wardrobe Planner",
   dressCode: [
     { event: "Carnival",      look: "Fun & fabulous|Bright pastels, playful Indo-western glam", colors: ["#f2a3ae", "#7cc095", "#e9b44c", "#2c6fb0"], image: "images/look-sangeet.jpg" },
-    { event: "Garba Night",   look: "Navratri colours|Mirror-work chaniya choli & kediyu",      colors: ["#e8608a", "#38a89c", "#f6ae52", "#3d7fc0"], image: "images/look-garba.jpg" },
+    { event: "Garba Night",   look: "Navratri colours|Mirror-work chaniya choli & traditional kurta",      colors: ["#e8608a", "#38a89c", "#f6ae52", "#3d7fc0"], image: "images/look-garba.jpg" },
     { event: "Mandava",       look: "Sunshine yellow|Pastel florals in yellow & peach",          colors: ["#f6dc7a", "#f7c6b4", "#f2b9c4", "#fbf3e0"], image: "images/look-haldi.jpg" },
     { event: "Baraat / Jaan", look: "Royal traditional|Rich jewel tones, ivory & gold",          colors: ["#c43d5e", "#f6ecd8", "#d9a630", "#1f7a6e"], image: "images/look-wedding.jpg" }
   ],
@@ -97,11 +98,11 @@ window.WEDDING = {
   rsvpBy: "",
   closing: "Your presence and blessings will make our celebration complete.",
   families: "With love — The Dave & Thaker Families",
-  hashtag: "#PrushtiWedsRajj",
+  hashtag: "#PRuSHkaRAjJ",
   music: "music/song.mp3",
 
   /* ---- colours (hex) ---- */
   theme: { ink: "#1d5a55", blue: "#2a7a72", sky: "#d6e8dc", mist: "#f4f9f3", gold: "#b88a2e" },
 
-  hideSections: ["rsvp", "gallery"]
+  hideSections: ["rsvp", "postcard"]
 };
