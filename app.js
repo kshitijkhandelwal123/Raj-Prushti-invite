@@ -189,6 +189,8 @@ nextHint();if(allDone())$("dFull").classList.add("show");
   setTimeout(function(){box.scrollLeft=0;go(0);mark()},400);addEventListener("resize",mark);
 })();
 
+/* ---------- couple instagram ---------- */
+(function(){var b=$("igBtn");if(!b)return;if(W.instagram){b.href=W.instagram;set("igHandle",W.instagramHandle||"Instagram")}else b.style.display="none"})();
 /* ---------- floating hearts in the gallery ---------- */
 (function(){var g=$("gallery");if(!g)return;for(var i=0;i<12;i++){var s=document.createElement("i");s.className="gheart";s.style.left=(4+Math.random()*92)+"%";
   s.style.animationDelay=(-Math.random()*14)+"s";s.style.animationDuration=(10+Math.random()*8)+"s";var z=8+Math.random()*10;s.style.width=s.style.height=z+"px";g.appendChild(s)}})();

@@ -22,7 +22,7 @@ window.WEDDING = {
   gateText: "Tap the crest — and count down with us",
   countFrom: 3,
   gateReveal: "Welcome to Dwarka",
-  gateImage: "images/temple-arch.jpg",
+  gateImage: "images/temple-dwarka.jpg",
 
   /* ---- words ---- */
   heroEyebrow: "॥ श्री कृष्णाय नमः ॥",
@@ -53,12 +53,14 @@ window.WEDDING = {
 
   /* gallery – Dwarka, the city of Shri Krishna */
   gallery: [                         /* the couple's photos */
-    { src: "images/us-1.jpg", cap: "Forehead to forehead" },
-    { src: "images/us-2.jpg", cap: "Lost in the hills" },
+    { src: "images/us-5.jpg", cap: "My safe place" },
     { src: "images/us-3.jpg", cap: "Sailing into forever" },
+    { src: "images/us-2.jpg", cap: "Lost in the hills" },
     { src: "images/us-4.jpg", cap: "All smiles, always" },
-    { src: "images/us-5.jpg", cap: "My safe place" }
+    { src: "images/us-1.jpg", cap: "Forehead to forehead" }
   ],
+  instagram: "https://www.instagram.com/prushkarajj/",   /* couple's Instagram, shown under the gallery ("" = hide) */
+  instagramHandle: "@prushkarajj",
 
   /* ---- date (the three scratch cards reveal this) ---- */
   weddingDateTime: "2027-02-02T17:00:00+05:30",   /* Baraat time – the countdown counts to this */
